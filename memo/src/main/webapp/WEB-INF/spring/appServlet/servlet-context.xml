@@ -64,7 +64,7 @@
 
 
 
-	<!-- for Tiles -->
+	<!-- for Apache Tiles -->
 	<beans:bean class="org.springframework.web.servlet.view.UrlBasedViewResolver"
 		id="viewResolver">
 		<beans:property name="viewClass"
