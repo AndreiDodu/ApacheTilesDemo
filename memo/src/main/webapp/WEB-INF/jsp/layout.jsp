@@ -10,18 +10,17 @@
 <link rel="stylesheet" type="text/css"
 	href="${url}">
 </head>
-<body>
-	<div>
+<body id="wrapper">
+	<div id="header">
 		<tiles:insertAttribute name="header" />
 	</div>
-	<div style="float: left; padding: 10px; width: 15%;">
+	<div id="menu">
 		<tiles:insertAttribute name="menu" />
 	</div>
-	<div
-		style="float: left; padding: 10px; width: 80%; border-left: 1px solid red;">
+	<div id="body">
 		<tiles:insertAttribute name="body" />
 	</div>
-	<div style="clear: both">
+	<div id="footer">
 		<tiles:insertAttribute name="footer" />
 	</div>
 
