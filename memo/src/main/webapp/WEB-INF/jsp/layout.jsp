@@ -6,7 +6,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><tiles:insertAttribute name="title" ignore="true" /></title>
-<link href="<c:url value='/static/css/app.css' />" rel="stylesheet"></link>
+<c:url var="url" value="/resources/static/css/app.css"/>
+<link rel="stylesheet" type="text/css"
+	href="${url}">
 </head>
 <body>
 	<div>

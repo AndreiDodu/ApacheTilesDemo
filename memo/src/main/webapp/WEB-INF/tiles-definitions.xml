@@ -3,29 +3,28 @@
   "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
   "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 
-<tiles-definitions>  
-    <definition name="base.definition"  
-        template="/WEB-INF/jsp/layout.jsp">  
-        <put-attribute name="title" value="" />
-        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />  
-        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />  
-        <put-attribute name="body" value="" />  
-        <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />  
-    </definition>  
-  
-    <definition name="home" extends="base.definition">  
-        <put-attribute name="title" value="Home" />  
-        <put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />  
-    </definition>  
-  
-    <definition name="memo" extends="base.definition">  
-        <put-attribute name="title" value="Memo" />  
-        <put-attribute name="body" value="/WEB-INF/jsp/memo.jsp" />  
-    </definition>  
-    
-    <definition name="new" extends="base.definition">
-    	<put-attribute name="title" value="New Memo" />
-    	<put-attribute name="body" value="/WEB-INF/jsp/new.jsp" />
-    </definition>
-  
+<tiles-definitions>
+	<definition name="base.definition" template="/WEB-INF/jsp/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
+	</definition>
+
+	<definition name="home" extends="base.definition">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />
+	</definition>
+
+	<definition name="memo" extends="base.definition">
+		<put-attribute name="title" value="Memo" />
+		<put-attribute name="body" value="/WEB-INF/jsp/memo.jsp" />
+	</definition>
+
+	<definition name="new" extends="base.definition">
+		<put-attribute name="title" value="New Memo" />
+		<put-attribute name="body" value="/WEB-INF/jsp/new.jsp" />
+	</definition>
+
 </tiles-definitions>
